@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+header, nav, section, footer {
+  margin: 20px;
+  padding: 20px;
+}
+
+header {
+  background-color:#fdfdfd;
+  color: #178b1d;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(11, 155, 76);
+  color: #fff;
+  padding: 10px;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+ 
+}
+
+li  :hover{ 
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  color: #000000;
+  opacity: 0.7;
+  
+}
+
+b :hover {
+  color: #fdfdfd;
+
+}
+
+section {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+section#home{
+  background-color: #EA7C11;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  color: #000000;
+}
+
+.feature {
+  flex: 1;
+  padding: 1em;
+  margin: 1em;
+  background-color: #07bb5871;
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer {
+  background-color: #14661A; 
+  text-align: center;
+  padding: 1em;
+}
+
+/* Adicione estilos adicionais conforme necessário */
+
+.collapse {
+  display: none;
+  padding: 50px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.collapse.active {
+  display: block;
+}
+
+img{width: 50;
+   height: 50; 
+   size: 20px;
+}
+pre{
+  font-size: 1em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+p.pfeature{
+  color:#000000;
+}
+
+
+  img {
+    max-height: 10%; /* Ajusta a altura para o máximo disponível */
+    width: 10%;      /* Mantém a proporção original */
+}
